@@ -2,3 +2,5 @@ node_modules
 coverage
 *.env
 package-lock.json
+__tests__/dict.spec.js
+__tests/notes.txt

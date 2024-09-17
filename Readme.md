@@ -1,21 +1,22 @@
 # User Auth & Email Verification with DevOps
 
-* [ ]  app seturp
-* [ ]  setting up sequelize
-* [ ]  user services
-* [ ]  user controllers
-* [ ]  user routes
+* [X]  app seturp
+* [X]  setting up sequelize
+* [X]  user services
+* [X]  user controllers
+* [X]  user routes
 * [ ]  prometheus for monitoring
-* [ ]  docker
-  * [ ]  base file
-  * [ ]  development file
-  * [ ]  production file
-* [ ]  setting up jest for testing
-* [ ]  tests for user service
-* [ ]  jenkins CI
-  * [ ]  Nodejs Environment
-  * [ ]  github hooks
-  * [ ]  dev branch -> master branch
-  * [ ]  post build actions
+* [X]  docker
+  * [X]  base file
+  * [X]  development file
+  * [X]  production file
+* [X]  setting up jest for testing
+* [X]  tests for user service
+* [X]  jenkins CI
+  * [X]  Nodejs Environment
+  * [X]  github hooks
+  * [X]  dev branch -> master branch
+  * [X]  post build actions
 * [ ]  jenkins CD
 * [ ]  k8s
+* [ ]  deploy to render
