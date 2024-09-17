@@ -1,0 +1,52 @@
+pipeline(
+    
+    agent any
+
+    environment {
+        secret = credentials('TEST')
+    }
+
+    stages {
+
+        stage('Build'){
+            steps {
+                echo "building"
+            }
+        }
+
+        stage('Test'){
+            steps {
+                echo 'Testing'
+            }
+        }
+
+        stage('Deploy'){
+            steps {
+                echo 'Deploying'
+                retry(3) {
+                    sh 'Deploying'
+                }
+            }
+        }
+
+    }
+
+    post {
+
+        always {
+            echo 'will always executed'
+        }
+
+        success {
+            echo 'will executed after success'
+        }
+
+        failure {  
+            echo 'executed after failures'
+        }
+
+        unstable {
+            echo 'executes if it is unstable'
+        }
+    }
+)

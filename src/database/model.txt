@@ -1,0 +1,9 @@
+email: string
+password: string
+name: string
+lastlogin: date
+isverfied: bool
+resetPasswordToken: string
+resetPasswordExpiresAt: Date
+verificationToken: string
+verificationTokenExpiresAt: Date

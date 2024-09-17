@@ -1,0 +1,4 @@
+scrape_configs:
+- job_name: 'my_app'
+  static_configs:
+  - targets: ['http://127.0.0.1:7000'] # Adjust the port as per your app

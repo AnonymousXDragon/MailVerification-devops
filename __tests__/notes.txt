@@ -1,0 +1,10 @@
+tdd:
+    write test , write code , refactor , repeat
+
+cmd:
+    jest --watchAll
+    jest --coverage
+    jest --coverage --watch (development)
+
+attrs:
+    test.skip("",() => {})
